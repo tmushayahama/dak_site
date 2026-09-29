@@ -1,7 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
-  <rect width="64" height="64" rx="14" fill="#3F2412"/>
-  <path d="M14 44V20l18-10 18 10v24" stroke="#EDD0AC" stroke-width="3" stroke-linejoin="round"/>
-  <path d="M14 44h36" stroke="#EDD0AC" stroke-width="3" stroke-linecap="round"/>
-  <path d="M27 44V30h10v14" stroke="#C8884B" stroke-width="3" stroke-linejoin="round"/>
-  <circle cx="46" cy="22" r="4" fill="#C8884B"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#FAF6EE"/>
+  <svg x="12.5" y="7" width="39" height="50" viewBox="26.5 16 160.5 206">
+    <defs>
+      <mask id="back"><rect x="-10" y="0" width="240" height="240" fill="#fff"/><path d="M66 186 V34.7 A58 49 0 0 1 146 80 V201 Z" fill="#000" stroke="#000" stroke-width="15" stroke-linejoin="round"/><path d="M48 196 V45.5 A70 49.5 0 0 1 118 95 V210 Z" fill="#000" stroke="#000" stroke-width="15" stroke-linejoin="round"/><path d="M28.5 201 V58.5 A65 64.5 0 0 1 93.5 123 V220 Z" fill="#000" stroke="#000" stroke-width="15" stroke-linejoin="round"/></mask>
+      <mask id="third"><rect x="-10" y="0" width="240" height="240" fill="#fff"/><path d="M48 196 V45.5 A70 49.5 0 0 1 118 95 V210 Z" fill="#000" stroke="#000" stroke-width="15" stroke-linejoin="round"/><path d="M28.5 201 V58.5 A65 64.5 0 0 1 93.5 123 V220 Z" fill="#000" stroke="#000" stroke-width="15" stroke-linejoin="round"/></mask>
+      <mask id="second"><rect x="-10" y="0" width="240" height="240" fill="#fff"/><path d="M28.5 201 V58.5 A65 64.5 0 0 1 93.5 123 V220 Z" fill="#000" stroke="#000" stroke-width="15" stroke-linejoin="round"/></mask>
+      <mask id="front"><rect x="-10" y="0" width="240" height="240" fill="#fff"/><g transform="translate(60 130) skewY(16.3) scale(1.5)" fill="#000"><circle r="7"/><path d="M-3 4.5 L-6 24.5 H6 L3 4.5 Z"/></g></mask>
+    </defs>
+    <path d="M92 193 V26.8 A61.5 61.5 0 0 1 185 79.5 V193 Z" fill="#573B27" mask="url(#back)"/>
+    <path d="M66 186 V34.7 A58 49 0 0 1 146 80 V201 Z" fill="#CEB79A" mask="url(#third)"/>
+    <path d="M48 196 V45.5 A70 49.5 0 0 1 118 95 V210 Z" fill="#E5D7C0" mask="url(#second)"/>
+    <path d="M28.5 201 V58.5 A65 64.5 0 0 1 93.5 123 V220 Z" fill="#52553A" mask="url(#front)"/>
+  </svg>
 </svg>
