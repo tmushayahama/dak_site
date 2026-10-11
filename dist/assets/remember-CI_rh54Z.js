@@ -1,0 +1,1 @@
+const a={tenant:"occupant",renter:"all",guest:"none",homeowner:"all",owner:"all",manager:"all",contractor:"none",caretaker:"all",past:"none"},t=e=>e==="owner"||e==="manager"||e==="caretaker"?"Remember this about the place":"Remember this about your home";export{a as R,t as r};

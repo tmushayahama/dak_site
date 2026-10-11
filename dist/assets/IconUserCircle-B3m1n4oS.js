@@ -1,0 +1,1 @@
+import{c as e}from"./index-Bvn8e3H0.js";const a=[["path",{d:"M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0",key:"svg-0"}],["path",{d:"M9 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0",key:"svg-1"}],["path",{d:"M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855",key:"svg-2"}]],o=e("outline","user-circle","UserCircle",a);export{o as I};
