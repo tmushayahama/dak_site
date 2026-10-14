@@ -1,0 +1,1 @@
+import{j as p}from"./react-DLmdmE6Z.js";import{q as i}from"./mantine-LlrRE8Nl.js";import{fP as e}from"./index-DtKz5Gls.js";const c=({options:t})=>t;function j({value:t,onChange:o,near:r,...s}){const m=e(t,8,r).map(({country:n,towns:a})=>({group:n,items:a}));return p.jsx(i,{...s,value:t,onChange:o,data:m,filter:c})}export{j as T};

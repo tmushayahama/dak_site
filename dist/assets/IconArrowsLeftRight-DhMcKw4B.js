@@ -1,1 +1,0 @@
-import{c as t}from"./index-Bvn8e3H0.js";const e=[["path",{d:"M21 17l-18 0",key:"svg-0"}],["path",{d:"M6 10l-3 -3l3 -3",key:"svg-1"}],["path",{d:"M3 7l18 0",key:"svg-2"}],["path",{d:"M18 20l3 -3l-3 -3",key:"svg-3"}]],r=t("outline","arrows-left-right","ArrowsLeftRight",e);export{r as I};
